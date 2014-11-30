@@ -4,7 +4,7 @@ layout: page
 
 Values define how an organisation makes decisions, especially at risky turbulent
 times. All organisations described in [Case Studies](casestudies.html) live by
-the values you can find below. Some of these organisations explicitly state them
+the values you find below. Some of these organisations explicitly state them
 as their own values, others simply see them as basic blocks without which the
 organisation won't survive.
 

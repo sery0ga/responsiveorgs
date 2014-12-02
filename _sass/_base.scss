@@ -95,6 +95,9 @@ a {
     &:visited {
         color: darken($brand-color, 15%);
     }
+    &:visited.label {
+        color: white;
+    }
 
     &:hover {
         color: $text-color;

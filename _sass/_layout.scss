@@ -85,12 +85,30 @@
     }
 }
 
-.nav > li > a {
-    display: block;
-    padding: 4px 20px;
-    font-size: 13px;
-    font-weight: 500;
-    color: #999;
+.nav {
+
+    li > a {
+        display: block;
+        padding: 4px 20px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #999;
+    }
+
+    .active > a {
+        font-weight: 700;
+        color: black;
+        border-left: 2px solid black;
+    }
+}
+.nav {
+    margin-top: 40px;
+}
+.chapter {
+    border-bottom: 1px solid #eee;
+}
+body {
+    position: relative;
 }
 
 /**
@@ -213,6 +231,7 @@
 }
 
 .post-content {
+    position: relative;
     margin-bottom: $spacing-unit;
 
     h2 {

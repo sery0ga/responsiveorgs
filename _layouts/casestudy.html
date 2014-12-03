@@ -2,33 +2,31 @@
 layout: default
 ---
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-7 col-md-offset-3 page-header">
-      <h1>{{ page.title }}</h1>
-    </div>
-  </div>
+<div class="container" >
   <div class="row">
     <div class="col-md-2">
+      <div class="toc">
         <div data-spy="affix" data-offset-top="0" data-offset-bottom="20">
-          <ul class="nav">
-              <li><a href="#General" class="">General</a></li>
+          <ul class="nav" role="navigation">
+              <li><a href="#general" class="">General</a></li>
               <li><a href="#values" class="">Values</a></li>
+              <li><a href="#roles" class="">Roles / Structure</a></li>
+              <li><a href="#information-flow" class="">Information Flow</a></li>
               <li><a href="#decision-making" class="">Decision-making</a></li>
-              <li><a href="#investments--budgets" class="">Investments / Budgets</a></li>
               <li><a href="#conflict-resolution" class="">Conflict Resolution</a></li>
-              <li><a href="#roles--structure" class="">Roles / Structure</a></li>
-              <li><a href="#salary--bonuses" class="">Salary / Bonuses</a></li>
+              <li><a href="#investments" class="">Investments / Budgets</a></li>
+              <li><a href="#salary" class="">Salary / Bonuses</a></li>
               <li><a href="#performance-evaluation" class="">Performance Evaluation</a></li>
               <li><a href="#hiring" class="">Hiring</a></li>
               <li><a href="#firing" class="">Firing</a></li>
-              <li><a href="#vacation" class="">Vacation</a></li>
-              <li><a href="#information-flow" class="">Information Flow</a></li>
+              <li><a href="#work-schedule" class="">Work Schedule</a></li>
               <li><a href="#personal-development" class="">Personal Development</a></li>
           </ul>
         </div>
+      </div>
     </div>
     <div class="post-content col-md-9 col-md-offset-1">
+      <div class="page-header"><h1>{{ page.title }}</h1></div>
       {{ content }}
     </div>
   </div>

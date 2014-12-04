@@ -11,7 +11,6 @@ layout: default
               <li><a href="#trust" class="">Trust</a></li>
               <li><a href="#transparency" class="">Transparency</a></li>
               <li><a href="#integrity" class="">Integrity</a></li>
-              <li><a href="#purpose" class="">Evolutionary Purpose</a></li>
           </ul>
         </div>
       </div>
@@ -85,9 +84,6 @@ target="_blank">self-expression</a> is essential for our happiness.</p>
 life like family, hobby or friends. It could be implemented in many ways: kids,
 spouses and pets in the office, flexible working hours, remote work, joint events,
 yoga and meditation classes, music bands and many more.</p>
-
-<h3 id="purpose"> Evolutionary Purpose</h3>
-
 
     </div>
   </div>
